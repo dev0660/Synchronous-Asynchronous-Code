@@ -19,3 +19,5 @@ function process(videoFile) {
 const url = "https://www.thinkful.com/sync-and-async.mov";
 
 download(url, process);
+
+setInterval(() => console.log("some other work is happening here"), 500);
